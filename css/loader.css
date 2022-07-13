@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Tattoo";
+    src: url("../fuentes/Avestrava\ Tattoo\ Personal\ Use\ Only.ttf");
+  }
+  @font-face {
+    font-family: "Tattoo2";
+    src: url("../fuentes/KGFlavorAndFramesThree.ttf");
+  }
+  @font-face {
+    font-family: "Tattoo3";
+    src: url("../fuentes/Avestrava\ Regular\ Personal\ Use\ Only.ttf");
+  }
+  @font-face {
+    font-family: "Tattoo4";
+    src: url("../fuentes/Hugtophia.ttf");
+  }
+
+  .texto2{
+    font-family: "Tattoo";
+    font-size: 36px;
+  }
+  .texto3{
+    font-family: "Tattoo3";
+    font-size: 56px;
+    color: black;   
+    
+  }
+
+  .texto4{
+    font-family: "Tattoo4";
+    font-size: 56px;
+    color: rgb(255, 255, 255);  
+    
+    
+    
+  }
+
+
+.texto8 {
+  color: transparent;
+  font-size: 96px;
+  text-align: center;
+  height: 100vh;
+  line-height: 10vh;
+  text-shadow: 0 0 100px rgb(61, 61, 60);
+  animation: an 2s ease-out .5s infinite alternate;
+  font-family: "Tattoo";
+ 
+}
+
+@keyframes an {
+  0% {text-shadow: 0 100vh 60px rgb(60, 226, 60);}
+  80% {text-shadow: 0 0 3px rgb(17, 16, 16);}
+  100% {text-shadow: 0 0 0px rgb(28, 27, 27);}
+}
