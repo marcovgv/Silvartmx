@@ -1,0 +1,310 @@
+/*Barra negra de  nvbar*/
+.barra{
+   
+    background: -webkit-linear-gradient(bottom,black,rgb(85, 85, 85));
+    
+   padding: 10px;
+}
+.barra a {
+    text-decoration: none;
+    font-weight:200;
+}
+
+.reset-a {
+    color:rgb(0, 0, 0);
+}
+.reset-a2 {
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+}
+.reset-a:hover {
+    color:#fff;
+}
+/*logo imagen*/
+.barra-social{
+    color: black;
+}
+.logo-white{
+    width: 30%;
+}
+.header{
+    background-image: url(../img/bg-header22.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+/*media curry*/
+@media (min-width: 600px) {
+    .header  {
+       
+    animation: movimiento 44s infinite linear alternate; 
+    }
+  }
+  /*media curry*/
+@media (max-width: 600px) {
+    .header  {
+       
+        background-position: 10% 85%;
+    animation: movimiento  infinite linear alternate; 
+    }
+  }
+
+@font-face {
+    font-family: "Natalie";
+    src: url("../fuentes/Natalie.otf");
+  }
+.text-dafon{
+    font-family: "Natalie";
+    font-size: 46px;
+   /* -webkit-text-fill-color: rgb(233, 184, 24);
+   -webkit-text-stroke: 2px black;*/
+   text-shadow: 2px 2px #565454;
+   
+
+}
+
+
+@font-face {
+    font-family: "Natalie";
+    src: url("../fuentes/Natalie.otf");
+  }
+.text-dafon3{
+    font-family: "Natalie";
+    font-size: 46px;
+   /* -webkit-text-fill-color: rgb(233, 184, 24);
+   -webkit-text-stroke: 2px black;*/
+   
+   
+
+}
+.header::after{
+   content: "";
+   display: block;
+   width: 100%;
+   height: 10px ;
+   background-color:#fff ;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+.vh-50{
+    height: 60vmin;
+}
+@font-face {
+    font-family: "demo";
+    src: url("../fuentes/Moonrising.ttf");
+  }
+  .text-dafon2{
+    font-family: "demo";
+    position: relative;
+
+    
+   /* -webkit-text-fill-color: rgb(233, 184, 24);
+   -webkit-text-stroke: 2px black;*/
+}
+.filtro{
+    filter: brightness(0.8);
+}
+.card-efecto:hover .card{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    filter: brightness(0.7);
+}
+.card{
+    transition-duration: .6;
+    transition: all 1s;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%);
+
+}
+
+.card-efecto2:hover .card2{
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+
+    filter: brightness(0.7);
+}
+.card2{
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+
+    transition-duration: .6;
+    transition: all 1s;
+    
+
+}
+
+/*SilvartMx*/
+.comments{
+    background-image: url(../img/bg-header33.jpg);
+    background-position:center ;
+    background-size: cover;
+    position: relative;
+}
+.comments.linear-white::after{
+    top: 0;
+}
+.comments__img{
+    width:80px;
+    height: 80px;
+    border-radius: 80%;
+    box-shadow:  7px 7px 7px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    
+    border:  3px ridge #fff;
+}
+.transformacion{
+    transform: rotate(0.5turn);
+}
+
+.linear-white::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 10px ;
+    background-color:#fff ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+ }
+ .media-objet-img{
+     height: 65px;
+     width: 65px;
+     margin-right: 15px;
+ }
+ 
+/*Footer*/
+.bg-dark2{
+    
+   background: black;
+}
+
+.quitar li{
+    list-style:none;
+}
+
+.ico-f{
+    font-size: 45px;
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+}
+.ico-i{
+    font-size: 45px;
+    margin: 3px;
+    color: white;
+}
+.a-i{
+    text-decoration: none;
+    
+}
+.ico-f:hover{
+    font-size: 40px;
+   color: rgb(22, 95, 241);
+}
+.ico-i:hover{
+   background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 28%;
+    font-size: 40px;
+}
+/* Galeria  header img movimiento */
+.header2{
+    background-image: url(../img/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation: movimiento 25s infinite linear alternate;  
+     
+}
+@keyframes movimiento {
+    from {
+        background-position: bottom left;
+    }to{
+        background-position:  top right;
+    }
+}
+/*
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left,black,rgb(60, 57, 57));
+    opacity: 0.5;
+
+}
+*/
+.capa2{
+    /*width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left,rgb(10, 10, 10),rgb(2, 2, 2));
+    opacity: 0.5;  */
+    background: rgb(0, 0, 0);
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    opacity: 0.2;
+    border-radius: 15px;
+    
+
+}
+
+.subir{
+    z-index:45 ;
+    text-align: center;
+   
+
+    
+}
+/*Galeria de img */
+.galeria-img{
+    
+    width: 100%;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+/*contacto */
+.header3{
+    background-image: url(../img/galeria/El-secreto-mejor-guardado-de-La-noche-estrellada-de-Van-Gogh.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation: movimiento 30s infinite linear alternate;   
+}
+
+.header3::after{
+   content: "";
+   display: block;
+   width: 100%;
+   height: 10px ;
+   background-color:#fff ;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+/*metodos de pago*/
+.pago img{
+    width:15%;
+    
+  }
+  /*Redes*/
+  .redes2 a{
+    margin: 3px;
+  }
+  /*media curry*/
+  @media (max-width: 600px) {
+    .texto {
+        font-size: 15px;
+    
+    }
+  }
+
+  @font-face {
+    font-family: "texto_pefil";
+    src: url("../fuentes/ProcreateSignature.otf");
+  }
+  .texto_pefil{
+    font-family: "texto_pefil";
+    
+   /* -webkit-text-fill-color: rgb(233, 184, 24);
+   -webkit-text-stroke: 2px black;*/
+}
